@@ -69,13 +69,15 @@ export default {
     }
   },
   computed: {
+    
     authError() { 
       return this.$store.getters.authError;
     },
     registeredUser() {
       return this.$store.getters.registeredUser;
     }
-  }
+  },
+    
 };
 </script>
 

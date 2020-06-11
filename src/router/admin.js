@@ -1,5 +1,5 @@
-import home from '../components/admin/Home/Home';
-import post from '../components/admin/post/post-list';
+import home from '../components/admin/AdminHome';
+import RecuriterList from '../components/admin/recuriter/RecuriterList';
 const route = [
     {
         path: '/',
@@ -11,8 +11,8 @@ const route = [
           }
     },
     {
-        path: '/post',
-        component: post,
+        path: '/recuriter-list',
+        component: RecuriterList,
         meta: {
             reqiuresAuth: false,
             admin:true, // for only admin component

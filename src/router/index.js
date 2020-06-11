@@ -5,8 +5,8 @@ import store from "../store";
 import adminPage from '../components/admin/AdminLayout';
 // import Public from './public';
 import admin from './admin';
-import Register from '../components/auth/Register.vue';
-import Login from '../components/auth/Login.vue';
+import Register from '../components/auth/AdminRegister.vue';
+import Login from '../components/auth/AdminLogin.vue';
 import Unauthorized from '../components/UnauthorizedPage.vue'; 
 
 Vue.use(VueRouter);

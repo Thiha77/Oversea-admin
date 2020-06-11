@@ -10,7 +10,7 @@
     </div>
 </template>
 <script>
-import adminMenu from "../menu/adminMenu";
+import adminMenu from "../menu/AdminMenu";
 
 export default {
   data() {
@@ -22,6 +22,7 @@ export default {
     adminMenu,
     
   },
+  
   mounted() {}
 };
 </script>
