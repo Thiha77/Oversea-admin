@@ -20,7 +20,6 @@
     </div>
 </template>
 <script>
-import { api }  from '../../../api/apiBasePath';
 export default {
     data() {
         return {
@@ -28,7 +27,7 @@ export default {
         }
     },
     mounted() {
-        api.get('/post').then(res=>{
+        this.api.get('/post').then(res=>{
             this.post = res.data
         })
         .catch(err=>{

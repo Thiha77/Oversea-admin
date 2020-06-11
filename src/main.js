@@ -2,15 +2,14 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import axios from 'axios'
-import VueAxios from 'vue-axios';
+import api from '../src/api/apiBasePath'
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import VueI18n from 'vue-i18n';
 import en from '../src/lang/en';
 import ja from '../src/lang/ja';
 
-Vue.use(VueAxios, axios)
+Vue.use(api)
 Vue.config.productionTip = false;
 
 const languages = {
